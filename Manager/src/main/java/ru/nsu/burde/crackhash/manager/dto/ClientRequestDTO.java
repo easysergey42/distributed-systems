@@ -3,7 +3,7 @@ package ru.nsu.burde.crackhash.manager.dto;
 import lombok.Data;
 
 @Data
-public class RequestDTO {
+public class ClientRequestDTO {
     String hash;
     int maxLength;
 }
