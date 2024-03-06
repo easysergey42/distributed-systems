@@ -1,7 +1,18 @@
 version: '3'
 services:
-  worker:
+  manager:
+    build: /Manager/
+    ports:
+      - "8080:8080"
+
+  worker1:
     build: /Worker/
-    deploy:
-      mode: replicated
-      replicas: 2
+#    deploy:
+#      mode: replicated
+#      replicas: 3
+
+  worker2:
+    build: ./Worker/
+
+  worker3:
+    build: ./Worker/

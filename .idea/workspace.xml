@@ -4,40 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dcb78d4-427a-4588-aa68-18957b275e59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CrackHash.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/crack-hash-manager.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/crack-hash-worker.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/ManagerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/controller/ClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/dto/RequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/dto/RequestIdDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/dto/ResultDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/model/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/src/test/java/ru/nsu/burde/crackhash/manager/ManagerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Worker/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Worker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Worker/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Worker/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Worker/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/worker/WorkerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Worker/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Worker/src/test/java/ru/nsu/burde/crackhash/worker/WorkerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+    <list default="true" id="88134538-9336-47de-8fe7-81a1c0c225aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/controller/WorkerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/dto/TaskForWorkerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/dto/WorkerResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/net/RestTemplateTaskSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/net/TaskSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/service/TicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/service/WorkerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/storage/MemoryTicketStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/storage/TicketStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/util/Globals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/worker/controller/ManagerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/worker/dto/TaskForWorkerDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/dto/ResultDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/dto/ResultDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/model/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/model/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/ru/nsu/burde/crackhash/commons/Alphabet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/ru/nsu/burde/crackhash/commons/CrackHashManagerRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +44,46 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/Manager">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Worker">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="crack-hash-manager" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="crack-hash-manager" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="crack-hash-manager" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="crack-hash-worker" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="crack-hash-worker" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="crack-hash-worker" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -67,7 +93,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Dockerfile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -84,28 +110,27 @@
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
-  <component name="ProjectId" id="2dHDPscuj9Yup5hnjjDK2MQXfpt" />
+  <component name="ProjectId" id="2dHgcFfa5FwxYin7DKpjFr70o1X" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Docker.docker-compose.yaml.frontend: Compose Deployment.executor": "Run",
     "Docker.docker-compose.yaml: Compose Deployment.executor": "Run",
     "Gradle.Build Manager.executor": "Run",
     "Gradle.Build Worker.executor": "Run",
+    "Gradle.Manager [bootJar].executor": "Run",
+    "Gradle.Worker [bootJar].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.ManagerApplication.executor": "Run",
     "Spring Boot.WorkerApplication.executor": "Run",
     "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -115,7 +140,59 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.ManagerApplication">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.nsu.burde.crackhash.manager.net" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.nsu.burde.crackhash.worker.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yaml: Compose Deployment">
+    <configuration name="Manager [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Manager" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Worker [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Worker" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="ManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="crack-hash-manager.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.nsu.burde.crackhash.manager.ManagerApplication" />
@@ -154,25 +231,13 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker-compose.yaml.frontend: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="frontend" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose.yaml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ManagerApplication" />
         <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="Gradle.Manager [bootJar]" />
+        <item itemvalue="Gradle.Worker [bootJar]" />
         <item itemvalue="Spring Boot.WorkerApplication" />
-        <item itemvalue="Docker.docker-compose.yaml.frontend: Compose Deployment" />
+        <item itemvalue="Spring Boot.ManagerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -186,16 +251,27 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2dcb78d4-427a-4588-aa68-18957b275e59" name="Changes" comment="" />
-      <created>1709656089932</created>
+      <changelist id="88134538-9336-47de-8fe7-81a1c0c225aa" name="Changes" comment="" />
+      <created>1709670495377</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1709656089932</updated>
-      <workItem from="1709656091668" duration="8388000" />
+      <updated>1709670495377</updated>
+      <workItem from="1709670496639" duration="20820000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

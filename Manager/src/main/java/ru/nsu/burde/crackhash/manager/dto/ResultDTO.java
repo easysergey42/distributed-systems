@@ -12,4 +12,5 @@ import java.util.List;
 public class ResultDTO {
     private Ticket.Status status;
     private List<String> data;
+
 }
