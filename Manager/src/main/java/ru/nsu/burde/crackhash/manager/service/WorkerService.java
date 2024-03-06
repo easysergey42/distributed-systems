@@ -26,12 +26,8 @@ public class WorkerService {
         this.threadPool = Executors.newFixedThreadPool(Globals.SENDERS_THREAD_POOL_SIZE);
     }
 
-    //TODO: implement this!
-    public void sendTask(TaskForWorkerDTO task){
-        taskSender.sendTaskToWorker(task);
-    }
 
-    public void handleTicket(String ticketId){
+    public void sendTasksToWorkers(String ticketId){
         Ticket ticket = ticketStorage.getById(ticketId);
         for (int i = 0; i < Globals.WORKER_NODES_NUM; i++) {
             var task = convertToDTO(ticket, i);
@@ -42,7 +38,7 @@ public class WorkerService {
 
 
     //TODO: вызвать обновление Тикета здесь.
-    public void processWorkerResponse(WorkerResponseDTO responseDTO){
+    public void handleWorkerResponse(WorkerResponseDTO responseDTO){
 
     }
 

@@ -28,7 +28,7 @@ public class RestTemplateTaskSender implements TaskSender {
     public void sendTaskToWorker(TaskForWorkerDTO task) {
         int nodeNumber = task.getPartNumber()+1;
         String workerHost = "http://worker"+nodeNumber+":8080"+"/internal/api/worker/hash/crack/task";
-        log.info("Task was sent to worker host: "+workerHost);
+        log.info(String.format("Task #%d was sent to worker host: %s",nodeNumber,workerHost));
 
         URI uri = URI.create(workerHost);
         HttpHeaders headers = new HttpHeaders();
@@ -36,7 +36,5 @@ public class RestTemplateTaskSender implements TaskSender {
         HttpEntity<TaskForWorkerDTO> httpRequest = new HttpEntity<>(task, headers);
 
         var responseEntity = restTemplate.postForEntity(uri, httpRequest, String.class);
-        log.info("sending request");
-        log.info("Response status code = " + responseEntity.getStatusCode());
     }
 }

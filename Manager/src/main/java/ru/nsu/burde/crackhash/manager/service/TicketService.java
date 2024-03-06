@@ -4,11 +4,13 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import ru.nsu.burde.crackhash.manager.dto.ClientRequestDTO;
 import ru.nsu.burde.crackhash.manager.dto.RequestIdDTO;
+import ru.nsu.burde.crackhash.manager.dto.ResultDTO;
 import ru.nsu.burde.crackhash.manager.model.Ticket;
 import ru.nsu.burde.crackhash.manager.storage.TicketStorage;
 import ru.nsu.burde.crackhash.manager.util.Globals;
 
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.UUID;
 
 @Service
@@ -33,7 +35,19 @@ public class TicketService {
         return RequestIdDTO.builder().requestId(requestId).build();
     }
 
-
+    public ResultDTO getResult(String requestId){
+        Ticket ticket = ticketStorage.getById(requestId);
+        var status = ticket.getStatus();
+        List<String> data = null;
+        if (status == Ticket.Status.READY){
+            ticketStorage.deleteTicket(requestId);
+            data = ticket.getResult();
+        }
+        return ResultDTO.builder()
+                .status(status)
+                .data(data)
+                .build();
+    }
 
 
 }

@@ -33,7 +33,7 @@ public class MemoryTicketStorage implements TicketStorage{
 
     @Override
     public void deleteTicket(String id) {
-
+        ticketStorage.remove(id);
     }
 
 }
