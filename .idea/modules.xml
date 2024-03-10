@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CrackHash.iml" filepath="$PROJECT_DIR$/.idea/CrackHash.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crack-hash-manager.main.iml" filepath="$PROJECT_DIR$/.idea/modules/crack-hash-manager.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crack-hash-worker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/crack-hash-worker.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Manager/CrackHash.Manager.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Manager/CrackHash.Manager.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Worker/CrackHash.Worker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Worker/CrackHash.Worker.main.iml" />
     </modules>
   </component>
 </project>

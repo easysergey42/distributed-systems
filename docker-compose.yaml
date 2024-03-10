@@ -10,9 +10,9 @@ services:
 #    deploy:
 #      mode: replicated
 #      replicas: 3
-
-  worker2:
-    build: ./Worker/
-
-  worker3:
-    build: ./Worker/
+#
+#  worker2:
+#    build: ./Worker/
+#
+#  worker3:
+#    build: ./Worker/

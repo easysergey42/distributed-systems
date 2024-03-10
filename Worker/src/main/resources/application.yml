@@ -1,0 +1,4 @@
+manager:
+  url: "http://localhost:8080/internal/api/manager/hash/crack/request"
+server:
+  port: 8081

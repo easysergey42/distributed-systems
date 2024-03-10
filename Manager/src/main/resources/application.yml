@@ -1,0 +1,6 @@
+worker:
+  hostName: "http://localhost"
+  port: "8081"
+  endpoint: "/internal/api/worker/hash/crack/task"
+manager:
+  ticketExpireTimeInMinutes: 2

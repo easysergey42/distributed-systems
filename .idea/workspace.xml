@@ -4,21 +4,64 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cbf1fa0-9711-4408-aa6a-8c110efd6430" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/worker/dto/WorkerResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/worker/service/CrackHashService.java" afterDir="false" />
+    <list default="true" id="a3ffc162-bbab-471f-a47f-31fc2e7f186a" name="Changes" comment="plus gitignore">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Manager/CrackHash.Manager.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Worker/CrackHash.Worker.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/ru/nsu/burde/crackhash/common/TaskForWorkerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/ru/nsu/burde/crackhash/common/WorkerResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/controller/WorkerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/domain/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/net/TaskSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/storage/MemoryTicketStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/storage/TicketStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/storage/updater/PeriodicTicketUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/service/CrackHashService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/utils/HashCalculations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Worker/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CrackHash.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/crack-hash-manager.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/crack-hash-worker.main.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/controller/ClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/net/RestTemplateTaskSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/net/RestTemplateTaskSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/net/TaskSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/net/TaskSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/service/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/service/TicketService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/service/WorkerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/service/WorkerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/storage/MemoryTicketStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/storage/MemoryTicketStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/storage/TicketStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/storage/TicketStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/ManagerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/ManagerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/controller/WorkerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/dto/ClientRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/dto/ClientRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/dto/RequestIdDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/dto/RequestIdDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/dto/ResultDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/dto/ResultDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/dto/TaskForWorkerDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/dto/WorkerResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/net/RestTemplateTaskSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/net/RestTemplateTaskSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/net/TaskSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/service/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/service/TicketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/service/WorkerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/service/WorkerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/storage/MemoryTicketStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/storage/TicketStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/util/Globals.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/util/Globals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/test/java/ru/nsu/burde/crackhash/manager/ManagerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/test/java/ru/nsu/burde/crackhash/ManagerApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Worker/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Worker/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/worker/controller/ManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/worker/controller/ManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/worker/WorkerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/WorkerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/worker/controller/ManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/controller/ManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/worker/dto/TaskForWorkerDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/worker/dto/WorkerResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/worker/service/CrackHashService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Worker/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Worker/src/test/java/ru/nsu/burde/crackhash/worker/WorkerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Worker/src/test/java/ru/nsu/burde/crackhash/WorkerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,67 +69,278 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$/Manager">
-      <ProjectState />
-    </projectState>
-    <projectState path="$PROJECT_DIR$/Worker">
+    <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Manager">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Commons">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Common">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Worker">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CrackHash" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CrackHash" type="f1a62948:ProjectNode" />
+                <item name="Worker" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CrackHash" type="f1a62948:ProjectNode" />
+                <item name="Worker" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CrackHash" type="f1a62948:ProjectNode" />
+                <item name="Worker" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
-  <component name="ProjectId" id="2dJdIQ7dvxi3hHr2MB27a0k6EWn" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2dM0puxtYcNKPFQx0KYfpAYbCZQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.docker-compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build CrackHash.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CrackHash [bootJar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CrackHash [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CrackHash [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CrackHash:Common [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CrackHash:Common [jar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CrackHash:Manager [bootJar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CrackHash:Worker [bootJar].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ManagerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.WorkerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Spring Boot.ManagerApplication">
+    <configuration name="CrackHash:Common [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Common" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CrackHash:Common [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Common" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CrackHash:Manager [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Manager" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CrackHash:Worker [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Worker" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="CrackHash.Manager.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.nsu.burde.crackhash.ManagerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="CrackHash.Worker.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.nsu.burde.crackhash.WorkerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="Gradle.CrackHash:Worker [bootJar]" />
+        <item itemvalue="Gradle.CrackHash:Manager [bootJar]" />
+        <item itemvalue="Gradle.CrackHash:Common [jar]" />
+        <item itemvalue="Gradle.CrackHash:Common [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8cbf1fa0-9711-4408-aa6a-8c110efd6430" name="Changes" comment="" />
-      <created>1709730037906</created>
+      <changelist id="a3ffc162-bbab-471f-a47f-31fc2e7f186a" name="Changes" comment="" />
+      <created>1709802830639</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1709730037906</updated>
-      <workItem from="1709730040902" duration="165000" />
+      <updated>1709802830639</updated>
+      <workItem from="1709802833687" duration="6163000" />
+      <workItem from="1709977531086" duration="19315000" />
+      <workItem from="1710085863244" duration="18985000" />
     </task>
+    <task id="LOCAL-00001" summary="plus gitignore">
+      <option name="closed" value="true" />
+      <created>1710106217673</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710106217674</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="plus gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="plus gitignore" />
   </component>
 </project>
