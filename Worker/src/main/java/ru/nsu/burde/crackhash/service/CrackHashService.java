@@ -49,7 +49,7 @@ public class CrackHashService {
             HttpHeaders headers = new HttpHeaders();
             headers.setContentType(MediaType.APPLICATION_JSON);
             HttpEntity<WorkerResponseDTO> httpRequest = new HttpEntity<>(response, headers);
-            var x = restTemplate.patchForObject(uri, httpRequest, String.class);
+            restTemplate.patchForObject(uri, httpRequest, String.class);
             log.info(String.format("patch request #%s was sent to %s", response.getRequestId(), uri));
         });
         log.info(String.format("Task #%s execution has started", task.getRequestId()));

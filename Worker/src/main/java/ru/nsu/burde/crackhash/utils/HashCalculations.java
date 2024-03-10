@@ -1,7 +1,5 @@
 package ru.nsu.burde.crackhash.utils;
 
-import lombok.extern.log4j.Log4j2;
-
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

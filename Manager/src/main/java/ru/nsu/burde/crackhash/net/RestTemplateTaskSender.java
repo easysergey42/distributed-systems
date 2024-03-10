@@ -1,6 +1,5 @@
 package ru.nsu.burde.crackhash.net;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
@@ -11,7 +10,6 @@ import org.springframework.web.client.RestTemplate;
 import ru.nsu.burde.crackhash.common.TaskForWorkerDTO;
 
 import java.net.URI;
-import java.net.URL;
 
 @Component
 @Log4j2

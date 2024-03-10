@@ -4,10 +4,10 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;
 import ru.nsu.burde.crackhash.common.WorkerResponseDTO;
-import ru.nsu.burde.crackhash.dto.RequestIdDTO;
-import ru.nsu.burde.crackhash.dto.ClientRequestDTO;
-import ru.nsu.burde.crackhash.dto.ResultDTO;
 import ru.nsu.burde.crackhash.domain.Ticket;
+import ru.nsu.burde.crackhash.dto.ClientRequestDTO;
+import ru.nsu.burde.crackhash.dto.RequestIdDTO;
+import ru.nsu.burde.crackhash.dto.ResultDTO;
 import ru.nsu.burde.crackhash.storage.TicketStorage;
 import ru.nsu.burde.crackhash.util.Globals;
 

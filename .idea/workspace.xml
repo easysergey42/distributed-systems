@@ -4,64 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3ffc162-bbab-471f-a47f-31fc2e7f186a" name="Changes" comment="plus gitignore">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Manager/CrackHash.Manager.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Worker/CrackHash.Worker.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/java/ru/nsu/burde/crackhash/common/TaskForWorkerDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/java/ru/nsu/burde/crackhash/common/WorkerResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/controller/WorkerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/domain/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/net/TaskSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/storage/MemoryTicketStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/storage/TicketStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/storage/updater/PeriodicTicketUpdater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/service/CrackHashService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/utils/HashCalculations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Worker/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    <list default="true" id="a3ffc162-bbab-471f-a47f-31fc2e7f186a" name="Changes" comment="all changes wtf">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CrackHash.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/crack-hash-manager.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/crack-hash-worker.main.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/ManagerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/ManagerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/controller/ClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/controller/WorkerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/dto/ClientRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/dto/ClientRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/dto/RequestIdDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/dto/RequestIdDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/dto/ResultDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/dto/ResultDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/dto/TaskForWorkerDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/dto/WorkerResponseDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/model/Ticket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/net/RestTemplateTaskSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/net/RestTemplateTaskSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/net/TaskSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/service/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/service/TicketService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/service/WorkerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/service/WorkerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/storage/MemoryTicketStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/storage/TicketStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/manager/util/Globals.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/util/Globals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/src/test/java/ru/nsu/burde/crackhash/manager/ManagerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/test/java/ru/nsu/burde/crackhash/ManagerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worker/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Worker/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/worker/WorkerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/WorkerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/worker/controller/ManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/controller/ManagerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/worker/dto/TaskForWorkerDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/worker/dto/WorkerResponseDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/worker/service/CrackHashService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worker/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worker/src/test/java/ru/nsu/burde/crackhash/worker/WorkerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Worker/src/test/java/ru/nsu/burde/crackhash/WorkerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/domain/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/domain/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/net/RestTemplateTaskSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/net/RestTemplateTaskSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/service/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/service/TicketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/service/WorkerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/service/WorkerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/storage/MemoryTicketStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/storage/MemoryTicketStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/storage/TicketStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/storage/TicketStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/storage/updater/PeriodicTicketUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/src/main/java/ru/nsu/burde/crackhash/storage/updater/PeriodicTicketUpdater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/service/CrackHashService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/service/CrackHashService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/utils/HashCalculations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Worker/src/main/java/ru/nsu/burde/crackhash/utils/HashCalculations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +93,9 @@
 }</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -323,7 +281,7 @@
       <updated>1709802830639</updated>
       <workItem from="1709802833687" duration="6163000" />
       <workItem from="1709977531086" duration="19315000" />
-      <workItem from="1710085863244" duration="18985000" />
+      <workItem from="1710085863244" duration="19466000" />
     </task>
     <task id="LOCAL-00001" summary="plus gitignore">
       <option name="closed" value="true" />
@@ -333,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710106217674</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="all changes wtf">
+      <option name="closed" value="true" />
+      <created>1710106322391</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710106322391</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,6 +307,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="plus gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="plus gitignore" />
+    <MESSAGE value="all changes wtf" />
+    <option name="LAST_COMMIT_MESSAGE" value="all changes wtf" />
   </component>
 </project>

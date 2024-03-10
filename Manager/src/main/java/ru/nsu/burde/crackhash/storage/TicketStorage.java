@@ -1,6 +1,5 @@
 package ru.nsu.burde.crackhash.storage;
 
-import ru.nsu.burde.crackhash.common.WorkerResponseDTO;
 import ru.nsu.burde.crackhash.domain.Ticket;
 
 import java.util.List;
